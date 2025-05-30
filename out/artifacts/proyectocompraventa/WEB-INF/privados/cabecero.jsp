@@ -1,7 +1,7 @@
 <%--
   Created by IntelliJ IDEA.
-  User: ADMIN-ITQ
-  Date: 21/5/2025
+  User: Maiccol Zurita
+  Date: 29/5/2025
   Time: 9:38
   To change this template use File | Settings | File Templates.
 --%>
@@ -73,7 +73,7 @@
                                      alt="User Image">
                                 <p>
 
-                                    <small>Elvis Pachacama</small>
+                                    <small>Maiccol Zurita</small>
                                 </p>
                             </li>
 
@@ -118,7 +118,9 @@
                         <i class="fa fa-angle-left pull-right"></i>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="articulo.php"><i class="fa fa-circle-o"></i> Artículos</a></li>
+                        <li><a href="${pageContext.request.contextPath}/articulo.jsp"><i class="fa fa-circle-o"></i> Artículos</a></li>
+                        <li><a href="${pageContext.request.contextPath}/usuario.jsp"><i class="fa fa-circle-o"></i> Usuario</a></li>
+                        <li><a href="${pageContext.request.contextPath}/permiso.jsp"><i class="fa fa-circle-o"></i> Permiso</a></li>
                         <li><a href="/proyectocompraventa/categoria"><i class="fa fa-circle-o"></i> Categorías</a></li>
                     </ul>
                 </li>

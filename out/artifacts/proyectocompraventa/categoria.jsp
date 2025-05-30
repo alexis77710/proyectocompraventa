@@ -1,4 +1,4 @@
-<%@ page import="java.util.Optional,org.elvis.proyectocompraventa.controllers.models.Categoria" %>
+<%@ page import="java.util.Optional,org.maiccol.compraventa.controllers.models.Categoria" %>
 <%@ page import="java.util.List" %>
 <%
     List<Categoria> categorias=(List<Categoria>) request.getAttribute("categorias");
